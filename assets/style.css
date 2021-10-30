@@ -1,0 +1,120 @@
+
+:root{
+    --primary: #F5E8C7;
+    --secondary: #DEBA9D;
+    --text: #9E7777;
+    --heading: #6F4C5B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border-radius: 3px;
+}
+
+#header{
+    color: var(--heading);
+    text-align: center;
+    justify-content: center;
+}
+
+body{
+    background: var(--primary);
+}
+
+#header #title{
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+}
+
+hr{
+    border-color: var(--heading);
+    border-style: solid;
+    border-width: 2.5px;
+}
+
+#home{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1{
+    padding-top: 25px;
+}
+
+#home div{
+    padding: 3.5rem;
+    background: var(--secondary);
+    border-radius: 10px;
+}
+
+#home h1,h2{
+    color: var(--heading);
+}
+
+.img-div #image{
+    height: 500px;
+    width: 750px;
+    border-radius: 10px;
+}
+
+#info{
+    padding: 3rem;
+    background: var(--secondary);
+}
+
+#info h3,p{
+    color: var(--heading);
+}
+
+#info p{
+    text-justify: inter-word;
+    text-align: justify;
+    border-radius: 15px;
+    padding: 15px;
+    background: var(--heading);
+    color: var(--primary);
+}
+
+#info .points{
+    list-style-type: square;
+    background: var(--secondary);
+}
+
+#links{
+    padding: 45px;
+    justify-content: center;
+    text-align: center;
+    background: var(--text);
+}
+
+#links img{
+    width: 55px;
+    height: 55px;
+}
+
+#links a{
+    font-size: 65px;
+    text-decoration: none;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+#links p{
+    font-size: 45px;
+    color: var(--primary);
+}
+
+.wikipedia{
+    list-style: none;
+    background: white;
+    text-decoration: none;
+    border-radius: 5rem;
+}
